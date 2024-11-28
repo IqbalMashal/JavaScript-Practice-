@@ -5,6 +5,8 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+let name = "iqbbal"
+
 function leapYear() {
     rl.question("Enter the year to check whether it's a leap year: ", function(year) {
         // Convert input to number
